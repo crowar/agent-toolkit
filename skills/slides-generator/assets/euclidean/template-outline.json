@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "theme": "euclidean",
+  "title": "Euclidean — исходные композиции",
+  "mode": "research",
+  "language": "ru",
+  "audience": "Просмотр дизайна; не содержательная презентация",
+  "duration_minutes": 10,
+  "slides": [
+    {
+      "id": "s01",
+      "title": "A line is length without breadth.",
+      "summary": "Крупный заголовок с засечками, подпись сверху и короткая красная линия. Демонстрирует исходный титульный слайд.",
+      "layout": "euclidean-cover",
+      "seconds": 30
+    },
+    {
+      "id": "s02",
+      "title": "The extremities of a surface are lines.",
+      "summary": "Центрированное утверждение красным цветом на кремовом фоне. Композиция подходит для одного короткого тезиса.",
+      "layout": "euclidean-statement",
+      "seconds": 30
+    },
+    {
+      "id": "s03",
+      "title": "Equal circles are those whose diameters are equal.",
+      "summary": "Слева расположена основная мысль, справа — нумерованная повестка. Колонки разделены тонкой вертикальной линией.",
+      "layout": "euclidean-agenda",
+      "seconds": 30
+    },
+    {
+      "id": "s04",
+      "title": "Ratio is the relation which one quantity bears to another of the same kind.",
+      "summary": "Заголовок и пояснение расположены в левой части с большим свободным пространством. Композиция сохраняет исходную редакционную сетку.",
+      "layout": "euclidean-narrative",
+      "seconds": 30
+    },
+    {
+      "id": "s05",
+      "title": "A surface is that which has length and breadth only.",
+      "summary": "Текстовый блок слева дополнен двумя пустыми светлыми панелями справа. Панели сохранены как в исходнике и не содержат данных.",
+      "layout": "euclidean-two-panels",
+      "seconds": 30
+    },
+    {
+      "id": "s06",
+      "title": "A plane surface is that which lies evenly between its extremities.",
+      "summary": "Заголовок и описание слева соседствуют с одной светлой панелью справа. Демонстрирует оригинальную двухколоночную композицию.",
+      "layout": "euclidean-one-panel",
+      "seconds": 30
+    },
+    {
+      "id": "s07",
+      "title": "Before",
+      "summary": "Два поля до и после разделены вертикальной линией. Светлые панели в исходном шаблоне пусты.",
+      "layout": "euclidean-before-after",
+      "seconds": 30
+    },
+    {
+      "id": "s08",
+      "title": "section name",
+      "summary": "Небольшая подпись отделена горизонтальной линией от большой светлой панели. Область содержимого оставлена пустой, как в источнике.",
+      "layout": "euclidean-showcase",
+      "seconds": 30
+    },
+    {
+      "id": "s09",
+      "title": "section name",
+      "summary": "Серая фоновая композиция с белой подписью. Демонстрирует исходную альтернативную поверхность, а не изменение основной палитры.",
+      "layout": "euclidean-divider",
+      "seconds": 30
+    },
+    {
+      "id": "s10",
+      "title": "section name",
+      "summary": "Цитата и атрибуция центрированы и выделены красным. Текст цитаты является заполнителем, а не реальным свидетельством.",
+      "layout": "euclidean-quote",
+      "seconds": 30
+    },
+    {
+      "id": "s11",
+      "title": "section name",
+      "summary": "Красная цитата занимает левую колонку, справа оставлена светлая панель. Сохраняются исходные размеры цитаты и отступы.",
+      "layout": "euclidean-quote-panel",
+      "seconds": 30
+    },
+    {
+      "id": "s12",
+      "title": "An obtuse angle is an angle greater than a right angle.",
+      "summary": "Основная мысль и описание слева дополнены синей цитатой справа. Атрибуция цитаты в демонстрации условная.",
+      "layout": "euclidean-narrative-quote",
+      "seconds": 30
+    },
+    {
+      "id": "s13",
+      "title": "An acute angle is less\nthan a right angle.",
+      "summary": "Один текстовый блок сопоставлен с двумя цитатами в правой колонке. Верхняя цитата синяя, нижняя красная.",
+      "layout": "euclidean-two-quotes",
+      "seconds": 30
+    },
+    {
+      "id": "s14",
+      "title": "A figure is a surface enclosed on all sides by a line or lines.",
+      "summary": "Текст слева дополнен светлой панелью и синей цитатой справа. Перегородки и пропорции сохранены из источника.",
+      "layout": "euclidean-panel-quote",
+      "seconds": 30
+    },
+    {
+      "id": "s15",
+      "title": "Timeline",
+      "summary": "Таймлайн воспроизводит исходные полосы, подписи и цвета. Позиции полос демонстрационные и не являются планом реального проекта.",
+      "layout": "euclidean-timeline",
+      "seconds": 30
+    },
+    {
+      "id": "s16",
+      "title": "The extremities of a surface are lines.",
+      "summary": "Слева расположен основной текст, справа — три крупных показателя. Все числа взяты из образца и не являются проверенными фактами.",
+      "layout": "euclidean-metrics",
+      "seconds": 30
+    },
+    {
+      "id": "s17",
+      "title": "Pros",
+      "summary": "Две нумерованные колонки сопоставляют преимущества и недостатки. Цветовые подписи и разделитель сохранены из исходника.",
+      "layout": "euclidean-pros-cons",
+      "seconds": 30
+    },
+    {
+      "id": "s18",
+      "title": "A triangle whose three sides are equal, is said to be equilateral.",
+      "summary": "Текст слева дополнен списком с двумя отмеченными и тремя пустыми индикаторами. Состояния списка демонстрационные, не отчёт о выполнении.",
+      "layout": "euclidean-checklist",
+      "seconds": 30
+    },
+    {
+      "id": "s19",
+      "title": "Q. E. D.",
+      "summary": "Крупное заключение центрировано на кремовом фоне. Исходная подпись сверху сохранена для просмотра дизайна.",
+      "layout": "euclidean-closing",
+      "seconds": 30
+    }
+  ]
+}

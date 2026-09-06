@@ -1,0 +1,290 @@
+{
+  "slides": [
+    {
+      "id": "s01",
+      "title": "A line is length without breadth.",
+      "layout": "euclidean-cover",
+      "body": {
+        "fields": {
+          "caption": "26 june 2024"
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 1. Крупный заголовок с засечками, подпись сверху и короткая красная линия. Демонстрирует исходный титульный слайд. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s02",
+      "title": "The extremities of a surface are lines.",
+      "layout": "euclidean-statement",
+      "body": {
+        "fields": {
+          "caption": "26 june 2024"
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 2. Центрированное утверждение красным цветом на кремовом фоне. Композиция подходит для одного короткого тезиса. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s03",
+      "title": "Equal circles are those whose diameters are equal.",
+      "layout": "euclidean-agenda",
+      "body": {
+        "fields": {
+          "section": "Agenda",
+          "items": "Refresher on problem statement\nUpdate on metrics\nReview design proposal\nAlign on GTM"
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 3. Слева расположена основная мысль, справа — нумерованная повестка. Колонки разделены тонкой вертикальной линией. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s04",
+      "title": "Ratio is the relation which one quantity bears to another of the same kind.",
+      "layout": "euclidean-narrative",
+      "body": {
+        "fields": {
+          "section": "section name",
+          "description": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation."
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 4. Заголовок и пояснение расположены в левой части с большим свободным пространством. Композиция сохраняет исходную редакционную сетку. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s05",
+      "title": "A surface is that which has length and breadth only.",
+      "layout": "euclidean-two-panels",
+      "body": {
+        "fields": {
+          "section": "section name",
+          "description": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation."
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 5. Текстовый блок слева дополнен двумя пустыми светлыми панелями справа. Панели сохранены как в исходнике и не содержат данных. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s06",
+      "title": "A plane surface is that which lies evenly between its extremities.",
+      "layout": "euclidean-one-panel",
+      "body": {
+        "fields": {
+          "section": "section name",
+          "description": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation."
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 6. Заголовок и описание слева соседствуют с одной светлой панелью справа. Демонстрирует оригинальную двухколоночную композицию. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s07",
+      "title": "Before",
+      "layout": "euclidean-before-after",
+      "body": {
+        "fields": {
+          "right_label": "After"
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 7. Два поля до и после разделены вертикальной линией. Светлые панели в исходном шаблоне пусты. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s08",
+      "title": "section name",
+      "layout": "euclidean-showcase",
+      "body": {
+        "fields": {}
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 8. Небольшая подпись отделена горизонтальной линией от большой светлой панели. Область содержимого оставлена пустой, как в источнике. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s09",
+      "title": "section name",
+      "layout": "euclidean-divider",
+      "body": {
+        "fields": {}
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 9. Серая фоновая композиция с белой подписью. Демонстрирует исходную альтернативную поверхность, а не изменение основной палитры. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s10",
+      "title": "section name",
+      "layout": "euclidean-quote",
+      "body": {
+        "fields": {
+          "quote": "A quote from a customer, user, or other stakeholder that helps back up the points you are trying to make on the previous or upcoming slides.",
+          "author": "—Jane Doe"
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 10. Цитата и атрибуция центрированы и выделены красным. Текст цитаты является заполнителем, а не реальным свидетельством. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s11",
+      "title": "section name",
+      "layout": "euclidean-quote-panel",
+      "body": {
+        "fields": {
+          "quote": "A quote from a customer, user, or other stakeholder that helps back up the point you’re trying to make on this slide.",
+          "author": "— Jane Doe"
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 11. Красная цитата занимает левую колонку, справа оставлена светлая панель. Сохраняются исходные размеры цитаты и отступы. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s12",
+      "title": "An obtuse angle is an angle greater than a right angle.",
+      "layout": "euclidean-narrative-quote",
+      "body": {
+        "fields": {
+          "section": "section name",
+          "description": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.",
+          "quote": "A quote from a customer, user, or other stakeholder that helps back up the point you’re trying to make on this slide.",
+          "author": "— Jane Doe"
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 12. Основная мысль и описание слева дополнены синей цитатой справа. Атрибуция цитаты в демонстрации условная. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s13",
+      "title": "An acute angle is less\nthan a right angle.",
+      "layout": "euclidean-two-quotes",
+      "body": {
+        "fields": {
+          "section": "section name",
+          "description": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.",
+          "quote_1": "A quote from a customer, user, or other stakeholder that helps back up the point you’re trying to make on this slide.",
+          "author_1": "— Jane Doe",
+          "quote_2": "A quote from a customer, user, or other stakeholder that helps back up the point you’re trying to make on this slide.",
+          "author_2": "— Jane Doe"
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 13. Один текстовый блок сопоставлен с двумя цитатами в правой колонке. Верхняя цитата синяя, нижняя красная. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s14",
+      "title": "A figure is a surface enclosed on all sides by a line or lines.",
+      "layout": "euclidean-panel-quote",
+      "body": {
+        "fields": {
+          "section": "section name",
+          "description": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.",
+          "quote": "A quote from a customer, user, or other stakeholder that helps back up the point you’re trying to make on this slide.",
+          "author": "— Jane Doe"
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 14. Текст слева дополнен светлой панелью и синей цитатой справа. Перегородки и пропорции сохранены из источника. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s15",
+      "title": "Timeline",
+      "layout": "euclidean-timeline",
+      "body": {
+        "fields": {
+          "description": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.\n\n",
+          "start_label": "January",
+          "end_label": "August",
+          "task_1": "v1 design",
+          "task_2": "v2 design",
+          "task_3": "User testing & research",
+          "task_4": "Engineering exploration",
+          "task_5": "Web implementation",
+          "task_6": "Android implementation",
+          "task_7": "iOS implementation",
+          "task_8": "Brand asset design"
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 15. Таймлайн воспроизводит исходные полосы, подписи и цвета. Позиции полос демонстрационные и не являются планом реального проекта. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s16",
+      "title": "The extremities of a surface are lines.",
+      "layout": "euclidean-metrics",
+      "body": {
+        "fields": {
+          "section": "section name",
+          "description": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.",
+          "value_1": "+330K",
+          "detail_1": "Metric details and caveats",
+          "value_2": "+103%",
+          "detail_2": "Metric details and caveats",
+          "value_3": "-18%",
+          "detail_3": "Metric details and caveats"
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 16. Слева расположен основной текст, справа — три крупных показателя. Все числа взяты из образца и не являются проверенными фактами. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s17",
+      "title": "Pros",
+      "layout": "euclidean-pros-cons",
+      "body": {
+        "fields": {
+          "right_label": "Cons",
+          "right_items": "First point\nSecond point\nThird point\nFourth point",
+          "left_items": "First point\nSecond point\nThird point\nFourth point"
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 17. Две нумерованные колонки сопоставляют преимущества и недостатки. Цветовые подписи и разделитель сохранены из исходника. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s18",
+      "title": "A triangle whose three sides are equal, is said to be equilateral.",
+      "layout": "euclidean-checklist",
+      "body": {
+        "fields": {
+          "item_1": "Check list item 1",
+          "item_2": "Check list item 2",
+          "item_3": "Check list item 3",
+          "item_4": "Check list item 4",
+          "item_5": "Check list item 5",
+          "section": "section name",
+          "description": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation."
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 18. Текст слева дополнен списком с двумя отмеченными и тремя пустыми индикаторами. Состояния списка демонстрационные, не отчёт о выполнении. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "Перейдём к следующей композиции шаблона.",
+      "source_ids": []
+    },
+    {
+      "id": "s19",
+      "title": "Q. E. D.",
+      "layout": "euclidean-closing",
+      "body": {
+        "fields": {
+          "caption": "26 june 2024"
+        }
+      },
+      "speech": "Демонстрационный шаблон Euclidean, слайд 19. Крупное заключение центрировано на кремовом фоне. Исходная подпись сверху сохранена для просмотра дизайна. Это просмотр оформления: исходные подписи, даты, цитаты и показатели не предназначены для использования как факты. Для рабочей презентации требуется отдельное исследование и утверждённое оглавление.",
+      "transition": "",
+      "source_ids": []
+    }
+  ],
+  "sources": []
+}

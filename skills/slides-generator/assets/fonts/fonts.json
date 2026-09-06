@@ -1,0 +1,42 @@
+[
+  {
+    "family": "Source Serif Pro",
+    "style": "Regular",
+    "file": "SourceSerifPro-Regular.ttf",
+    "sha256": "bbe1e33dfabbfe69b97564724bf763918ea582ad03d8cc066e42dc74eb1e17c7",
+    "source_url": "https://raw.githubusercontent.com/adobe-fonts/source-serif/3.001R/TTF/SourceSerifPro-Regular.ttf",
+    "license_file": "LICENSE-SourceSerifPro.md"
+  },
+  {
+    "family": "Source Serif Pro",
+    "style": "Bold",
+    "file": "SourceSerifPro-Bold.ttf",
+    "sha256": "68d8a1f66a665c1fd17f06a76cab986d9cd3c4ed4f42c41b1b3121acdb8325b4",
+    "source_url": "https://raw.githubusercontent.com/adobe-fonts/source-serif/3.001R/TTF/SourceSerifPro-Bold.ttf",
+    "license_file": "LICENSE-SourceSerifPro.md"
+  },
+  {
+    "family": "Source Sans Pro",
+    "style": "Regular",
+    "file": "SourceSansPro-Regular.ttf",
+    "sha256": "c6f835b6a6d942b196e2607bf73a7b086407ae8dbdc928c23a2fb4893ec383f6",
+    "source_url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/ce77773581f4d454f0fa985c073bb25c721bfcf5/TTF/SourceSansPro-Regular.ttf",
+    "license_file": "LICENSE-SourceSansPro.md"
+  },
+  {
+    "family": "Source Sans Pro",
+    "style": "SemiBold",
+    "file": "SourceSansPro-Semibold.ttf",
+    "sha256": "72bf9aa2e78b8c78444ae74b6be09411d5fb5bf0eb9bcdfd47082cc5d9b536df",
+    "source_url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/ce77773581f4d454f0fa985c073bb25c721bfcf5/TTF/SourceSansPro-Semibold.ttf",
+    "license_file": "LICENSE-SourceSansPro.md"
+  },
+  {
+    "family": "Source Sans Pro",
+    "style": "Black",
+    "file": "SourceSansPro-Black.ttf",
+    "sha256": "4183f9ae34bd50bde1ee5601302c0d1666638cad52ff2a8886d8c47535be1999",
+    "source_url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/ce77773581f4d454f0fa985c073bb25c721bfcf5/TTF/SourceSansPro-Black.ttf",
+    "license_file": "LICENSE-SourceSansPro.md"
+  }
+]

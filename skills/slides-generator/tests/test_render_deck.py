@@ -234,12 +234,12 @@ class GeneratorTests(unittest.TestCase):
         self.assertEqual(len(Presentation(out / "presentation.pptx").slides), 7)
 
     def test_template_cli_needs_no_approval_but_is_explicitly_placeholder(self):
-        result = self.cli("template", "--output-dir", self.work / "sample")
+        result = self.cli("template", "--theme", "light-business", "--output-dir", self.work / "sample")
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertTrue((self.work / "sample" / "template.pptx").is_file())
-        result = self.cli("template", "--output-dir", self.work / "sample")
+        result = self.cli("template", "--theme", "light-business", "--output-dir", self.work / "sample")
         self.assertEqual(result.returncode, 2)
-        result = self.cli("template", "--output-dir", self.work / "sample", "--overwrite")
+        result = self.cli("template", "--theme", "light-business", "--output-dir", self.work / "sample", "--overwrite")
         self.assertEqual(result.returncode, 0, result.stderr)
 
     def test_approval_failures(self):
@@ -409,7 +409,7 @@ class GeneratorTests(unittest.TestCase):
 
     def test_missing_dependency_has_actionable_error(self):
         result = subprocess.run(
-            [sys.executable, "-S", str(SCRIPT), "template", "--output-dir", str(self.work / "missing")],
+            [sys.executable, "-S", str(SCRIPT), "template", "--theme", "light-business", "--output-dir", str(self.work / "missing")],
             capture_output=True, text=True,
         )
         self.assertEqual(result.returncode, 2)

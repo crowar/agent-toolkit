@@ -156,7 +156,11 @@ def load_json(path: Path):
 
 def validate_outline(outline: dict) -> None:
     fields(outline, {"version", "title", "mode", "language", "audience",
-                     "duration_minutes", "slides"}, "outline")
+                     "duration_minutes", "slides"} | ({"theme"} if isinstance(outline, dict) and "theme" in outline else set()), "outline")
+    theme = outline.get("theme", "light-business")
+    if theme not in ("euclidean", "light-business"):
+        fail("outline.theme", "expected euclidean or light-business")
+    layouts = euclidean().catalogue() if theme == "euclidean" else LAYOUTS
     if type(outline["version"]) is not int or outline["version"] < 1:
         fail("outline.version", "must be a positive integer")
     text(outline["title"], "outline.title", 255)
@@ -173,10 +177,13 @@ def validate_outline(outline: dict) -> None:
         path = f"outline.slides[{i}]"
         fields(slide, {"id", "title", "summary", "layout", "seconds"}, path)
         ids.append(identifier(slide["id"], path + ".id"))
-        fit(slide["title"], path + ".title", 11.9, 30, 2)
         text(slide["summary"], path + ".summary", 2000)
-        if not isinstance(slide["layout"], str) or slide["layout"] not in LAYOUTS:
-            fail(path + ".layout", f"expected one of {', '.join(sorted(LAYOUTS))}")
+        if not isinstance(slide["layout"], str) or slide["layout"] not in layouts:
+            fail(path + ".layout", f"expected one of {', '.join(sorted(layouts))}")
+        if theme == "euclidean":
+            euclidean().validate_title(slide, path)
+        else:
+            fit(slide["title"], path + ".title", 11.9, 30, 2)
         total += number(slide["seconds"], path + ".seconds", 0, 21600)
         if slide["seconds"] <= 0:
             fail(path + ".seconds", "must be positive")
@@ -306,8 +313,11 @@ def validate_content(content: dict, outline: dict) -> None:
             if ref not in ids:
                 fail(path + ".source_ids", f"unresolved source reference: {ref}")
         unique(refs, path + ".source_ids")
-        fit(source_footer(refs), path + ".source_ids (footer)", 10.7, 12, 1)
-        validate_body(slide, path + ".body")
+        if outline.get("theme") == "euclidean":
+            euclidean().validate_body(slide, path + ".body")
+        else:
+            fit(source_footer(refs), path + ".source_ids (footer)", 10.7, 12, 1)
+            validate_body(slide, path + ".body")
 
 
 def source_footer(refs: list[str]) -> str:
@@ -328,6 +338,8 @@ def notes_text(slide: dict, planned: dict, outline: dict, sources: dict, placeho
     details = "\n\n".join(source_detail(sources[ref]) for ref in slide["source_ids"])
     return (
         (PLACEHOLDER + "\n\n" if placeholder else "")
+        + ("Design credit (not a research source):\n" + euclidean().DESIGN_CREDIT + "\n\n"
+           if outline.get("theme") == "euclidean" else "")
         + f"{slide['id']} — {slide['title']}\n"
         f"Language / Язык: {outline['language']}\nAudience / Аудитория: {outline['audience']}\n"
         f"Timing / Время: {planned['seconds']:g} seconds\n\n"
@@ -348,6 +360,20 @@ def load_pptx():
     return Presentation
 
 
+def euclidean():
+    # Lazy loading keeps outline-hash independent of rendering/font dependencies,
+    # including callers loading this script with importlib rather than as a CLI.
+    import importlib.util
+    name = "_slides_euclidean"
+    if name not in sys.modules:
+        spec = importlib.util.spec_from_file_location(name, ROOT / "scripts" / "euclidean.py")
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        module.fail, module.text, module.fields = fail, text, fields
+        sys.modules[name] = module
+    return sys.modules[name]
+
+
 def literal_chart_workbook(body: dict) -> bytes:
     from xlsxwriter import Workbook
 
@@ -366,6 +392,8 @@ def literal_chart_workbook(body: dict) -> bytes:
 
 
 def build_presentation(outline: dict, content: dict, placeholder=False) -> bytes:
+    if outline.get("theme") == "euclidean":
+        return euclidean().build(outline, content, placeholder, notes_text, load_pptx())
     Presentation = load_pptx()
     from pptx.chart.data import CategoryChartData
     from pptx.dml.color import RGBColor
@@ -559,6 +587,8 @@ def markdown_documents(outline: dict, content: dict, placeholder=False) -> tuple
         f"Planned duration: {sum(s['seconds'] for s in outline['slides']):g} seconds "
         f"(budget: {outline['duration_minutes']:g} minutes)\n\n"
     )
+    if outline.get("theme") == "euclidean":
+        metadata += "Design credit (not a research source):\n\n" + euclidean().DESIGN_CREDIT + "\n\n"
     speech = metadata
     for data, planned in zip(content["slides"], outline["slides"]):
         words = len((data["speech"] + " " + data["transition"]).split())
@@ -623,6 +653,9 @@ def main(argv=None) -> int:
     template = commands.add_parser("template", help="Render a clearly unapproved placeholder example")
     template.add_argument("--output-dir", type=Path, required=True)
     template.add_argument("--overwrite", action="store_true")
+    template.add_argument("--theme", choices=("euclidean", "light-business"), default="euclidean")
+    catalog = commands.add_parser("catalog", help="Print exact layout slots, styles, and geometry as JSON")
+    catalog.add_argument("--theme", choices=("euclidean", "light-business"), default="euclidean")
     hashing = commands.add_parser("outline-hash", help="SHA256 of the exact outline file bytes")
     hashing.add_argument("--outline", type=Path, required=True)
     rendering = commands.add_parser("render", help="Render content bound to an explicitly approved outline")
@@ -634,9 +667,14 @@ def main(argv=None) -> int:
         if args.command == "outline-hash":
             print(hashlib.sha256(args.outline.read_bytes()).hexdigest())
             return 0
+        if args.command == "catalog":
+            data = euclidean().catalog_document() if args.theme == "euclidean" else {"theme": "light-business", "layouts": sorted(LAYOUTS)}
+            print(json.dumps(data, ensure_ascii=False, indent=2))
+            return 0
         if args.command == "template":
-            outline, _ = load_json(ROOT / "assets" / "template-outline.json")
-            content, _ = load_json(ROOT / "assets" / "template-deck.json")
+            assets = ROOT / "assets" / ("euclidean" if args.theme == "euclidean" else "")
+            outline, _ = load_json(assets / "template-outline.json")
+            content, _ = load_json(assets / "template-deck.json")
             paths = render(outline, content, args.output_dir, args.overwrite, placeholder=True)
         else:
             outline, raw = load_json(args.outline)

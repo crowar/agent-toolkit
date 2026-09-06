@@ -1,0 +1,7382 @@
+{
+  "schema_version": 1,
+  "id": "euclidean",
+  "source": {
+    "title": "Euclidean",
+    "url": "https://www.figma.com/community/file/1387141600584938870/euclidean",
+    "creator": "Nicholas Jitkoff",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_basis": "Official Figma slide-template licensing policy; the individual Community page was inaccessible (HTTP 403). Creator attribution is supported by the indexed listing.",
+    "changes": "Adapted source geometry and typography to editable PowerPoint layouts, named content fields, and speaker notes.",
+    "origin": "User-provided Figma Slides export; layout metadata extracted locally.",
+    "canvas_sha256": "eab760fc11f8203711640e7687a9f0775becbb273cb98ab19c8912e067acceeb"
+  },
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "palette": {
+    "Color 3": "#E8E7E5",
+    "Accent 1": "#FEFBF4",
+    "Color 9": "#FAC22B",
+    "Color 8": "#E77625",
+    "Color 10": "#0E8E51",
+    "White": "#FFFFFF",
+    "Color 6": "#16161D",
+    "Color 5": "#88888C",
+    "Color 2": "#FCF7E9",
+    "Color 12": "#67378D",
+    "Color 11": "#0E638E",
+    "Color 7": "#D42A20"
+  },
+  "variables": {
+    "PADDING_TOP_BOTTOM": 128,
+    "BORDER_WEIGHT": 0,
+    "PADDING_CONTAINERS": 168,
+    "PADDING_LEFT_RIGHT": 168,
+    "CORNER_RADIUS": 0
+  },
+  "text_styles": [
+    {
+      "name": "H2",
+      "family": "Source Serif Pro",
+      "style": "Regular",
+      "size": 64,
+      "line_height": {
+        "value": 1.2999999523162842,
+        "units": "RAW"
+      },
+      "letter_spacing": {
+        "value": -2.200000047683716,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "name": "Quote Symbol",
+      "family": "Source Serif Pro",
+      "style": "Bold",
+      "size": 100,
+      "line_height": {
+        "value": 0,
+        "units": "PIXELS"
+      },
+      "letter_spacing": {
+        "value": -1,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "name": "Title",
+      "family": "Source Serif Pro",
+      "style": "Regular",
+      "size": 140,
+      "line_height": {
+        "value": 1.2000000476837158,
+        "units": "RAW"
+      },
+      "letter_spacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "name": "H3",
+      "family": "Source Serif Pro",
+      "style": "Regular",
+      "size": 48,
+      "line_height": {
+        "value": 1.600000023841858,
+        "units": "RAW"
+      },
+      "letter_spacing": {
+        "value": -1,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "name": "Caption",
+      "family": "Source Sans Pro",
+      "style": "SemiBold",
+      "size": 28,
+      "line_height": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letter_spacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "name": "H1",
+      "family": "Source Serif Pro",
+      "style": "Regular",
+      "size": 140,
+      "line_height": {
+        "value": 1.2000000476837158,
+        "units": "RAW"
+      },
+      "letter_spacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "name": "Body",
+      "family": "Source Sans Pro",
+      "style": "Regular",
+      "size": 32,
+      "line_height": {
+        "value": 1.5,
+        "units": "RAW"
+      },
+      "letter_spacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "name": "Big and Bold",
+      "family": "Source Sans Pro",
+      "style": "Black",
+      "size": 96,
+      "line_height": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letter_spacing": {
+        "value": -1,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "name": "List",
+      "family": "Source Sans Pro",
+      "style": "Regular",
+      "size": 42,
+      "line_height": {
+        "value": 1.25,
+        "units": "RAW"
+      },
+      "letter_spacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "name": "H4",
+      "family": "Source Serif Pro",
+      "style": "Regular",
+      "size": 36,
+      "line_height": {
+        "value": 1.600000023841858,
+        "units": "RAW"
+      },
+      "letter_spacing": {
+        "value": -1,
+        "units": "PERCENT"
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "id": "euclidean-cover",
+      "source_slide": 1,
+      "name": "cover",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "caption"
+      ],
+      "elements": [
+        {
+          "id": "n235",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            163,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "caption",
+          "text": "26 june 2024",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n236",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            372
+          ],
+          "size": [
+            1303,
+            336
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "A line is length without breadth.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 140
+          },
+          "line_height": {
+            "value": 1.2000000476837158,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "CENTER",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 124.80999755859375,
+              "height": 175.4199981689453,
+              "ascent": 128,
+              "start": 0,
+              "end": 17
+            },
+            {
+              "x": 0,
+              "y": 292.80999755859375,
+              "height": 175.4199981689453,
+              "ascent": 128,
+              "start": 17,
+              "end": 33
+            }
+          ]
+        },
+        {
+          "id": "n237",
+          "kind": "line",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            776
+          ],
+          "size": [
+            268,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#D42A20",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 1,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-statement",
+      "source_slide": 2,
+      "name": "statement",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "caption"
+      ],
+      "elements": [
+        {
+          "id": "n240",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            163,
+            35
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "caption",
+          "text": "26 june 2024",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n241",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            309,
+            499
+          ],
+          "size": [
+            1303,
+            83
+          ],
+          "fill": {
+            "color": "#D42A20",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "The extremities of a surface are lines.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 64
+          },
+          "line_height": {
+            "value": 1.2999999523162842,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -2.200000047683716,
+            "units": "PERCENT"
+          },
+          "align": "CENTER",
+          "vertical_align": "CENTER",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 142.97076416015625,
+              "y": 60.15599822998047,
+              "height": 83,
+              "ascent": 58,
+              "start": 0,
+              "end": 39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euclidean-agenda",
+      "source_slide": 3,
+      "name": "agenda",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "section",
+        "items"
+      ],
+      "elements": [
+        {
+          "id": "n244",
+          "kind": "line",
+          "transform": [
+            4.371138828673793e-8,
+            1,
+            -1,
+            4.371138828673793e-8,
+            960,
+            0
+          ],
+          "size": [
+            1080,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#FCF7E9",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n245",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            720,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "section",
+          "text": "Agenda",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "id": "n246",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            457
+          ],
+          "size": [
+            760,
+            166
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "Equal circles are those whose diameters are equal.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 64
+          },
+          "line_height": {
+            "value": 1.2999999523162842,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -2.200000047683716,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "CENTER",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 60.15599822998047,
+              "height": 83,
+              "ascent": 58,
+              "start": 0,
+              "end": 24
+            },
+            {
+              "x": 0,
+              "y": 143.156005859375,
+              "height": 83,
+              "ascent": 58,
+              "start": 24,
+              "end": 50
+            }
+          ]
+        },
+        {
+          "id": "n247",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            374
+          ],
+          "size": [
+            750,
+            332
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "items",
+          "text": "Refresher on problem statement\nUpdate on metrics\nReview design proposal\nAlign on GTM",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 42
+          },
+          "line_height": {
+            "value": 1.25,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "CENTER",
+          "text_case": "ORIGINAL",
+          "list_spacing": 40,
+          "paragraphs": [
+            {
+              "type": "ORDERED_LIST",
+              "indent": 1
+            },
+            {
+              "type": "ORDERED_LIST",
+              "indent": 1
+            },
+            {
+              "type": "ORDERED_LIST",
+              "indent": 1
+            },
+            {
+              "type": "ORDERED_LIST",
+              "indent": 1
+            }
+          ],
+          "baselines": [
+            {
+              "x": 63,
+              "y": 41.430999755859375,
+              "height": 53,
+              "ascent": 41,
+              "start": 0,
+              "end": 31,
+              "marker_x": 17.664201736450195
+            },
+            {
+              "x": 63,
+              "y": 134.43099975585938,
+              "height": 53,
+              "ascent": 41,
+              "start": 31,
+              "end": 49,
+              "marker_x": 17.664201736450195
+            },
+            {
+              "x": 63,
+              "y": 227.43099975585938,
+              "height": 53,
+              "ascent": 41,
+              "start": 49,
+              "end": 72,
+              "marker_x": 17.664201736450195
+            },
+            {
+              "x": 63,
+              "y": 320.4309997558594,
+              "height": 53,
+              "ascent": 41,
+              "start": 72,
+              "end": 84,
+              "marker_x": 17.664201736450195
+            }
+          ]
+        },
+        {
+          "id": "n248",
+          "kind": "line",
+          "transform": [
+            4.371138828673793e-8,
+            1,
+            -1,
+            4.371138828673793e-8,
+            960,
+            0
+          ],
+          "size": [
+            1080,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-narrative",
+      "source_slide": 4,
+      "name": "narrative",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "section",
+        "description"
+      ],
+      "elements": [
+        {
+          "id": "n251",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            720,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "section",
+          "text": "section name",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n253",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            328.5
+          ],
+          "size": [
+            904,
+            249
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "Ratio is the relation which one quantity bears to another of the same kind.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 64
+          },
+          "line_height": {
+            "value": 1.2999999523162842,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -2.200000047683716,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 60.15599822998047,
+              "height": 83,
+              "ascent": 58,
+              "start": 0,
+              "end": 32
+            },
+            {
+              "x": 0,
+              "y": 143.156005859375,
+              "height": 83,
+              "ascent": 58,
+              "start": 32,
+              "end": 65
+            },
+            {
+              "x": 0,
+              "y": 226.156005859375,
+              "height": 83,
+              "ascent": 58,
+              "start": 65,
+              "end": 75
+            }
+          ]
+        },
+        {
+          "id": "n254",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            607.5
+          ],
+          "size": [
+            904,
+            144
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": "description",
+          "text": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 32
+          },
+          "line_height": {
+            "value": 1.5,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 35.375999450683594,
+              "height": 48,
+              "ascent": 31,
+              "start": 0,
+              "end": 69
+            },
+            {
+              "x": 0,
+              "y": 83.3759994506836,
+              "height": 48,
+              "ascent": 31,
+              "start": 69,
+              "end": 136
+            },
+            {
+              "x": 0,
+              "y": 131.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 136,
+              "end": 182
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euclidean-two-panels",
+      "source_slide": 5,
+      "name": "two-panels",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "section",
+        "description"
+      ],
+      "elements": [
+        {
+          "id": "n257",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            720,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "section",
+          "text": "section name",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n259",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            346
+          ],
+          "size": [
+            760,
+            166
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "A surface is that which has length and breadth only.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 64
+          },
+          "line_height": {
+            "value": 1.2999999523162842,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -2.200000047683716,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 60.15599822998047,
+              "height": 83,
+              "ascent": 58,
+              "start": 0,
+              "end": 28
+            },
+            {
+              "x": 0,
+              "y": 143.156005859375,
+              "height": 83,
+              "ascent": 58,
+              "start": 28,
+              "end": 52
+            }
+          ]
+        },
+        {
+          "id": "n260",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            542
+          ],
+          "size": [
+            760,
+            192
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": "description",
+          "text": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 32
+          },
+          "line_height": {
+            "value": 1.5,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 35.375999450683594,
+              "height": 48,
+              "ascent": 31,
+              "start": 0,
+              "end": 55
+            },
+            {
+              "x": 0,
+              "y": 83.3759994506836,
+              "height": 48,
+              "ascent": 31,
+              "start": 55,
+              "end": 105
+            },
+            {
+              "x": 0,
+              "y": 131.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 105,
+              "end": 154
+            },
+            {
+              "x": 0,
+              "y": 179.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 154,
+              "end": 182
+            }
+          ]
+        },
+        {
+          "id": "n261",
+          "kind": "rounded_rectangle",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            960,
+            2
+          ],
+          "size": [
+            960,
+            540
+          ],
+          "fill": {
+            "color": "#FEFBF4",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n262",
+          "kind": "rounded_rectangle",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            960,
+            542
+          ],
+          "size": [
+            960,
+            540
+          ],
+          "fill": {
+            "color": "#FEFBF4",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n263",
+          "kind": "line",
+          "transform": [
+            4.371138828673793e-8,
+            1,
+            -1,
+            4.371138828673793e-8,
+            960,
+            0
+          ],
+          "size": [
+            1080,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n264",
+          "kind": "line",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            960,
+            540
+          ],
+          "size": [
+            960,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-one-panel",
+      "source_slide": 6,
+      "name": "one-panel",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "section",
+        "description"
+      ],
+      "elements": [
+        {
+          "id": "n267",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            720,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "section",
+          "text": "section name",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n269",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            304.5
+          ],
+          "size": [
+            760,
+            249
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "A plane surface is that which lies evenly between its extremities.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 64
+          },
+          "line_height": {
+            "value": 1.2999999523162842,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -2.200000047683716,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 60.15599822998047,
+              "height": 83,
+              "ascent": 58,
+              "start": 0,
+              "end": 24
+            },
+            {
+              "x": 0,
+              "y": 143.156005859375,
+              "height": 83,
+              "ascent": 58,
+              "start": 24,
+              "end": 50
+            },
+            {
+              "x": 0,
+              "y": 226.156005859375,
+              "height": 83,
+              "ascent": 58,
+              "start": 50,
+              "end": 66
+            }
+          ]
+        },
+        {
+          "id": "n270",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            583.5
+          ],
+          "size": [
+            760,
+            192
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": "description",
+          "text": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 32
+          },
+          "line_height": {
+            "value": 1.5,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 35.375999450683594,
+              "height": 48,
+              "ascent": 31,
+              "start": 0,
+              "end": 55
+            },
+            {
+              "x": 0,
+              "y": 83.3759994506836,
+              "height": 48,
+              "ascent": 31,
+              "start": 55,
+              "end": 105
+            },
+            {
+              "x": 0,
+              "y": 131.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 105,
+              "end": 154
+            },
+            {
+              "x": 0,
+              "y": 179.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 154,
+              "end": 182
+            }
+          ]
+        },
+        {
+          "id": "n271",
+          "kind": "rounded_rectangle",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            960,
+            0
+          ],
+          "size": [
+            960,
+            1080
+          ],
+          "fill": {
+            "color": "#FEFBF4",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n272",
+          "kind": "line",
+          "transform": [
+            4.371138828673793e-8,
+            1,
+            -1,
+            4.371138828673793e-8,
+            960,
+            0
+          ],
+          "size": [
+            1080,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-before-after",
+      "source_slide": 7,
+      "name": "before-after",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "right_label"
+      ],
+      "elements": [
+        {
+          "id": "n275",
+          "kind": "line",
+          "transform": [
+            4.371138828673793e-8,
+            1,
+            -1,
+            4.371138828673793e-8,
+            960,
+            0
+          ],
+          "size": [
+            1080,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n276",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            97,
+            35
+          ],
+          "fill": {
+            "color": "#0E638E",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "Before",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "id": "n277",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1084,
+            80
+          ],
+          "size": [
+            77,
+            35
+          ],
+          "fill": {
+            "color": "#0E8E51",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "right_label",
+          "text": "After",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "id": "n278",
+          "kind": "rounded_rectangle",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            165
+          ],
+          "size": [
+            760,
+            750
+          ],
+          "fill": {
+            "color": "#FEFBF4",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n279",
+          "kind": "rounded_rectangle",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            165
+          ],
+          "size": [
+            760,
+            750
+          ],
+          "fill": {
+            "color": "#FEFBF4",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-showcase",
+      "source_slide": 8,
+      "name": "showcase",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [],
+      "elements": [
+        {
+          "id": "n282",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            182,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "title",
+          "text": "section name",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n283",
+          "kind": "rounded_rectangle",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            185
+          ],
+          "size": [
+            1920,
+            895
+          ],
+          "fill": {
+            "color": "#FEFBF4",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n284",
+          "kind": "line",
+          "transform": [
+            1,
+            8.742277657347586e-8,
+            -8.742277657347586e-8,
+            1,
+            0,
+            185
+          ],
+          "size": [
+            1920,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-divider",
+      "source_slide": 9,
+      "name": "divider",
+      "background": "#88888C",
+      "title_slot": "title",
+      "fields": [],
+      "elements": [
+        {
+          "id": "n287",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            182,
+            35
+          ],
+          "fill": {
+            "color": "#FFFFFF",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "section name",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euclidean-quote",
+      "source_slide": 10,
+      "name": "quote",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "quote",
+        "author"
+      ],
+      "elements": [
+        {
+          "id": "n290",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            720,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "title",
+          "text": "section name",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n292",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            369,
+            377.5
+          ],
+          "size": [
+            64.67337036132812,
+            0
+          ],
+          "fill": {
+            "color": "#D42A20",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL",
+          "slot": null,
+          "text": "“",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Bold",
+            "size": 100
+          },
+          "line_height": {
+            "value": 0,
+            "units": "PIXELS"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 29.149999618530273,
+              "height": 125.30000305175781,
+              "ascent": 91,
+              "start": 0,
+              "end": 1
+            }
+          ]
+        },
+        {
+          "id": "n293",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            369,
+            407.5
+          ],
+          "size": [
+            1182,
+            231
+          ],
+          "fill": {
+            "color": "#D42A20",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "quote",
+          "text": "A quote from a customer, user, or other stakeholder that helps back up the points you are trying to make on the previous or upcoming slides.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 48
+          },
+          "line_height": {
+            "value": 1.600000023841858,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 52.492000579833984,
+              "height": 77,
+              "ascent": 44,
+              "start": 0,
+              "end": 57
+            },
+            {
+              "x": 0,
+              "y": 129.49200439453125,
+              "height": 77,
+              "ascent": 44,
+              "start": 57,
+              "end": 112
+            },
+            {
+              "x": 0,
+              "y": 206.49200439453125,
+              "height": 77,
+              "ascent": 44,
+              "start": 112,
+              "end": 140
+            }
+          ]
+        },
+        {
+          "id": "n294",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            369,
+            668.5
+          ],
+          "size": [
+            1182,
+            35
+          ],
+          "fill": {
+            "color": "#D42A20",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "author",
+          "text": "—Jane Doe",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "euclidean-quote-panel",
+      "source_slide": 11,
+      "name": "quote-panel",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "quote",
+        "author"
+      ],
+      "elements": [
+        {
+          "id": "n297",
+          "kind": "line",
+          "transform": [
+            4.371138828673793e-8,
+            1,
+            -1,
+            4.371138828673793e-8,
+            960,
+            0
+          ],
+          "size": [
+            1080,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n298",
+          "kind": "rounded_rectangle",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            960,
+            0
+          ],
+          "size": [
+            960,
+            1080
+          ],
+          "fill": {
+            "color": "#FEFBF4",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n299",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            720,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "title",
+          "text": "section name",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n301",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            406
+          ],
+          "size": [
+            64.67337036132812,
+            0
+          ],
+          "fill": {
+            "color": "#D42A20",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": null,
+          "text": "“",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Bold",
+            "size": 100
+          },
+          "line_height": {
+            "value": 0,
+            "units": "PIXELS"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 29.149999618530273,
+              "height": 125.30000305175781,
+              "ascent": 91,
+              "start": 0,
+              "end": 1
+            }
+          ]
+        },
+        {
+          "id": "n302",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            436
+          ],
+          "size": [
+            760,
+            174
+          ],
+          "fill": {
+            "color": "#D42A20",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "quote",
+          "text": "A quote from a customer, user, or other stakeholder that helps back up the point you’re trying to make on this slide.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 36
+          },
+          "line_height": {
+            "value": 1.600000023841858,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 39.49399948120117,
+              "height": 58,
+              "ascent": 33,
+              "start": 0,
+              "end": 40
+            },
+            {
+              "x": 0,
+              "y": 97.49400329589844,
+              "height": 58,
+              "ascent": 33,
+              "start": 40,
+              "end": 88
+            },
+            {
+              "x": 0,
+              "y": 155.49400329589844,
+              "height": 58,
+              "ascent": 33,
+              "start": 88,
+              "end": 117
+            }
+          ]
+        },
+        {
+          "id": "n303",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            640
+          ],
+          "size": [
+            760,
+            35
+          ],
+          "fill": {
+            "color": "#D42A20",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "author",
+          "text": "— Jane Doe",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "id": "n304",
+          "kind": "line",
+          "transform": [
+            4.371138828673793e-8,
+            1,
+            -1,
+            4.371138828673793e-8,
+            960,
+            0
+          ],
+          "size": [
+            1080,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-narrative-quote",
+      "source_slide": 12,
+      "name": "narrative-quote",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "section",
+        "description",
+        "quote",
+        "author"
+      ],
+      "elements": [
+        {
+          "id": "n307",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            720,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "section",
+          "text": "section name",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n309",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            346
+          ],
+          "size": [
+            760,
+            166
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "An obtuse angle is an angle greater than a right angle.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 64
+          },
+          "line_height": {
+            "value": 1.2999999523162842,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -2.200000047683716,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 60.15599822998047,
+              "height": 83,
+              "ascent": 58,
+              "start": 0,
+              "end": 28
+            },
+            {
+              "x": 0,
+              "y": 143.156005859375,
+              "height": 83,
+              "ascent": 58,
+              "start": 28,
+              "end": 55
+            }
+          ]
+        },
+        {
+          "id": "n310",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            542
+          ],
+          "size": [
+            760,
+            192
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": "description",
+          "text": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 32
+          },
+          "line_height": {
+            "value": 1.5,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 35.375999450683594,
+              "height": 48,
+              "ascent": 31,
+              "start": 0,
+              "end": 55
+            },
+            {
+              "x": 0,
+              "y": 83.3759994506836,
+              "height": 48,
+              "ascent": 31,
+              "start": 55,
+              "end": 105
+            },
+            {
+              "x": 0,
+              "y": 131.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 105,
+              "end": 154
+            },
+            {
+              "x": 0,
+              "y": 179.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 154,
+              "end": 182
+            }
+          ]
+        },
+        {
+          "id": "n312",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            406
+          ],
+          "size": [
+            64.67337036132812,
+            0
+          ],
+          "fill": {
+            "color": "#0E638E",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": null,
+          "text": "“",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Bold",
+            "size": 100
+          },
+          "line_height": {
+            "value": 0,
+            "units": "PIXELS"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 29.149999618530273,
+              "height": 125.30000305175781,
+              "ascent": 91,
+              "start": 0,
+              "end": 1
+            }
+          ]
+        },
+        {
+          "id": "n313",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            436
+          ],
+          "size": [
+            760,
+            174
+          ],
+          "fill": {
+            "color": "#0E638E",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "quote",
+          "text": "A quote from a customer, user, or other stakeholder that helps back up the point you’re trying to make on this slide.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 36
+          },
+          "line_height": {
+            "value": 1.600000023841858,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 39.49399948120117,
+              "height": 58,
+              "ascent": 33,
+              "start": 0,
+              "end": 40
+            },
+            {
+              "x": 0,
+              "y": 97.49400329589844,
+              "height": 58,
+              "ascent": 33,
+              "start": 40,
+              "end": 88
+            },
+            {
+              "x": 0,
+              "y": 155.49400329589844,
+              "height": 58,
+              "ascent": 33,
+              "start": 88,
+              "end": 117
+            }
+          ]
+        },
+        {
+          "id": "n314",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            640
+          ],
+          "size": [
+            760,
+            35
+          ],
+          "fill": {
+            "color": "#0E638E",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "author",
+          "text": "— Jane Doe",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "id": "n315",
+          "kind": "line",
+          "transform": [
+            4.371138828673793e-8,
+            1,
+            -1,
+            4.371138828673793e-8,
+            960,
+            0
+          ],
+          "size": [
+            1080,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-two-quotes",
+      "source_slide": 13,
+      "name": "two-quotes",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "section",
+        "description",
+        "quote_1",
+        "author_1",
+        "quote_2",
+        "author_2"
+      ],
+      "elements": [
+        {
+          "id": "n318",
+          "kind": "line",
+          "transform": [
+            -1,
+            1.2246469849340659e-16,
+            -1.2246468525851679e-16,
+            -1,
+            1920,
+            540
+          ],
+          "size": [
+            960,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#FCF7E9",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n319",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            720,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "section",
+          "text": "section name",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n321",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            346
+          ],
+          "size": [
+            760,
+            166
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "An acute angle is less\nthan a right angle.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 64
+          },
+          "line_height": {
+            "value": 1.2999999523162842,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -2.200000047683716,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            },
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 60.15599822998047,
+              "height": 83,
+              "ascent": 58,
+              "start": 0,
+              "end": 23
+            },
+            {
+              "x": 0,
+              "y": 143.156005859375,
+              "height": 83,
+              "ascent": 58,
+              "start": 23,
+              "end": 42
+            }
+          ]
+        },
+        {
+          "id": "n322",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            542
+          ],
+          "size": [
+            760,
+            192
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": "description",
+          "text": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 32
+          },
+          "line_height": {
+            "value": 1.5,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 35.375999450683594,
+              "height": 48,
+              "ascent": 31,
+              "start": 0,
+              "end": 55
+            },
+            {
+              "x": 0,
+              "y": 83.3759994506836,
+              "height": 48,
+              "ascent": 31,
+              "start": 55,
+              "end": 105
+            },
+            {
+              "x": 0,
+              "y": 131.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 105,
+              "end": 154
+            },
+            {
+              "x": 0,
+              "y": 179.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 154,
+              "end": 182
+            }
+          ]
+        },
+        {
+          "id": "n325",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            676
+          ],
+          "size": [
+            64.67337036132812,
+            0
+          ],
+          "fill": {
+            "color": "#D42A20",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": null,
+          "text": "“",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Bold",
+            "size": 100
+          },
+          "line_height": {
+            "value": 0,
+            "units": "PIXELS"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 29.149999618530273,
+              "height": 125.30000305175781,
+              "ascent": 91,
+              "start": 0,
+              "end": 1
+            }
+          ]
+        },
+        {
+          "id": "n326",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            706
+          ],
+          "size": [
+            760,
+            174
+          ],
+          "fill": {
+            "color": "#D42A20",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "quote_1",
+          "text": "A quote from a customer, user, or other stakeholder that helps back up the point you’re trying to make on this slide.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 36
+          },
+          "line_height": {
+            "value": 1.600000023841858,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 39.49399948120117,
+              "height": 58,
+              "ascent": 33,
+              "start": 0,
+              "end": 40
+            },
+            {
+              "x": 0,
+              "y": 97.49400329589844,
+              "height": 58,
+              "ascent": 33,
+              "start": 40,
+              "end": 88
+            },
+            {
+              "x": 0,
+              "y": 155.49400329589844,
+              "height": 58,
+              "ascent": 33,
+              "start": 88,
+              "end": 117
+            }
+          ]
+        },
+        {
+          "id": "n327",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            910
+          ],
+          "size": [
+            760,
+            35
+          ],
+          "fill": {
+            "color": "#D42A20",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "author_1",
+          "text": "— Jane Doe",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "id": "n330",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            133
+          ],
+          "size": [
+            64.67337036132812,
+            0
+          ],
+          "fill": {
+            "color": "#0E638E",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": null,
+          "text": "“",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Bold",
+            "size": 100
+          },
+          "line_height": {
+            "value": 0,
+            "units": "PIXELS"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 29.149999618530273,
+              "height": 125.30000305175781,
+              "ascent": 91,
+              "start": 0,
+              "end": 1
+            }
+          ]
+        },
+        {
+          "id": "n331",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            163
+          ],
+          "size": [
+            760,
+            174
+          ],
+          "fill": {
+            "color": "#0E638E",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "quote_2",
+          "text": "A quote from a customer, user, or other stakeholder that helps back up the point you’re trying to make on this slide.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 36
+          },
+          "line_height": {
+            "value": 1.600000023841858,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 39.49399948120117,
+              "height": 58,
+              "ascent": 33,
+              "start": 0,
+              "end": 40
+            },
+            {
+              "x": 0,
+              "y": 97.49400329589844,
+              "height": 58,
+              "ascent": 33,
+              "start": 40,
+              "end": 88
+            },
+            {
+              "x": 0,
+              "y": 155.49400329589844,
+              "height": 58,
+              "ascent": 33,
+              "start": 88,
+              "end": 117
+            }
+          ]
+        },
+        {
+          "id": "n332",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            367
+          ],
+          "size": [
+            760,
+            35
+          ],
+          "fill": {
+            "color": "#0E638E",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "author_2",
+          "text": "— Jane Doe",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "id": "n333",
+          "kind": "line",
+          "transform": [
+            4.371138828673793e-8,
+            1,
+            -1,
+            4.371138828673793e-8,
+            960,
+            0
+          ],
+          "size": [
+            1080,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n334",
+          "kind": "line",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            960,
+            540
+          ],
+          "size": [
+            960,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-panel-quote",
+      "source_slide": 14,
+      "name": "panel-quote",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "section",
+        "description",
+        "quote",
+        "author"
+      ],
+      "elements": [
+        {
+          "id": "n337",
+          "kind": "rounded_rectangle",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            960,
+            0
+          ],
+          "size": [
+            960,
+            540
+          ],
+          "fill": {
+            "color": "#FEFBF4",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n338",
+          "kind": "line",
+          "transform": [
+            -1,
+            1.2246469849340659e-16,
+            -1.2246468525851679e-16,
+            -1,
+            1920,
+            540
+          ],
+          "size": [
+            960,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#FCF7E9",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n339",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            720,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "section",
+          "text": "section name",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n341",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            304.5
+          ],
+          "size": [
+            760,
+            249
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "A figure is a surface enclosed on all sides by a line or lines.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 64
+          },
+          "line_height": {
+            "value": 1.2999999523162842,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -2.200000047683716,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 60.15599822998047,
+              "height": 83,
+              "ascent": 58,
+              "start": 0,
+              "end": 22
+            },
+            {
+              "x": 0,
+              "y": 143.156005859375,
+              "height": 83,
+              "ascent": 58,
+              "start": 22,
+              "end": 49
+            },
+            {
+              "x": 0,
+              "y": 226.156005859375,
+              "height": 83,
+              "ascent": 58,
+              "start": 49,
+              "end": 63
+            }
+          ]
+        },
+        {
+          "id": "n342",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            583.5
+          ],
+          "size": [
+            760,
+            192
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": "description",
+          "text": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 32
+          },
+          "line_height": {
+            "value": 1.5,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 35.375999450683594,
+              "height": 48,
+              "ascent": 31,
+              "start": 0,
+              "end": 55
+            },
+            {
+              "x": 0,
+              "y": 83.3759994506836,
+              "height": 48,
+              "ascent": 31,
+              "start": 55,
+              "end": 105
+            },
+            {
+              "x": 0,
+              "y": 131.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 105,
+              "end": 154
+            },
+            {
+              "x": 0,
+              "y": 179.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 154,
+              "end": 182
+            }
+          ]
+        },
+        {
+          "id": "n345",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            676
+          ],
+          "size": [
+            64.67337036132812,
+            0
+          ],
+          "fill": {
+            "color": "#0E638E",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": null,
+          "text": "“",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Bold",
+            "size": 100
+          },
+          "line_height": {
+            "value": 0,
+            "units": "PIXELS"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 29.149999618530273,
+              "height": 125.30000305175781,
+              "ascent": 91,
+              "start": 0,
+              "end": 1
+            }
+          ]
+        },
+        {
+          "id": "n346",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            706
+          ],
+          "size": [
+            760,
+            174
+          ],
+          "fill": {
+            "color": "#0E638E",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "quote",
+          "text": "A quote from a customer, user, or other stakeholder that helps back up the point you’re trying to make on this slide.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 36
+          },
+          "line_height": {
+            "value": 1.600000023841858,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 39.49399948120117,
+              "height": 58,
+              "ascent": 33,
+              "start": 0,
+              "end": 40
+            },
+            {
+              "x": 0,
+              "y": 97.49400329589844,
+              "height": 58,
+              "ascent": 33,
+              "start": 40,
+              "end": 88
+            },
+            {
+              "x": 0,
+              "y": 155.49400329589844,
+              "height": 58,
+              "ascent": 33,
+              "start": 88,
+              "end": 117
+            }
+          ]
+        },
+        {
+          "id": "n347",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            910
+          ],
+          "size": [
+            760,
+            35
+          ],
+          "fill": {
+            "color": "#0E638E",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "author",
+          "text": "— Jane Doe",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "id": "n348",
+          "kind": "line",
+          "transform": [
+            4.371138828673793e-8,
+            1,
+            -1,
+            4.371138828673793e-8,
+            960,
+            0
+          ],
+          "size": [
+            1080,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n349",
+          "kind": "line",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            960,
+            540
+          ],
+          "size": [
+            960,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-timeline",
+      "source_slide": 15,
+      "name": "timeline",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "description",
+        "start_label",
+        "end_label",
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4",
+        "task_5",
+        "task_6",
+        "task_7",
+        "task_8"
+      ],
+      "elements": [
+        {
+          "id": "n352",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            115,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "title",
+          "text": "Timeline",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "id": "n353",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            189
+          ],
+          "size": [
+            974,
+            240
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": "description",
+          "text": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.\n\n",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 32
+          },
+          "line_height": {
+            "value": 1.5,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            },
+            {
+              "type": "PLAIN",
+              "indent": 0
+            },
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 35.375999450683594,
+              "height": 48,
+              "ascent": 31,
+              "start": 0,
+              "end": 69
+            },
+            {
+              "x": 0,
+              "y": 83.3759994506836,
+              "height": 48,
+              "ascent": 31,
+              "start": 69,
+              "end": 139
+            },
+            {
+              "x": 0,
+              "y": 131.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 139,
+              "end": 183
+            },
+            {
+              "x": 0,
+              "y": 179.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 183,
+              "end": 184
+            }
+          ]
+        },
+        {
+          "id": "n356",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            509
+          ],
+          "size": [
+            112,
+            35
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "start_label",
+          "text": "January",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "id": "n357",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1720,
+            509
+          ],
+          "size": [
+            100,
+            35
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "end_label",
+          "text": "August",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "RIGHT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0.7421875,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "id": "n358",
+          "kind": "frame",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            604
+          ],
+          "size": [
+            631,
+            75
+          ],
+          "fill": {
+            "color": "#0E638E",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 3,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n359",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            120,
+            624
+          ],
+          "size": [
+            591,
+            35
+          ],
+          "fill": {
+            "color": "#FFFFFF",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "task_1",
+          "text": "v1 design",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "id": "n360",
+          "kind": "frame",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            751,
+            604
+          ],
+          "size": [
+            631,
+            75
+          ],
+          "fill": {
+            "color": "#0E638E",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 3,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n361",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            771,
+            624
+          ],
+          "size": [
+            591,
+            35
+          ],
+          "fill": {
+            "color": "#FFFFFF",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "task_2",
+          "text": "v2 design",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "id": "n362",
+          "kind": "frame",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            388,
+            796
+          ],
+          "size": [
+            994,
+            75
+          ],
+          "fill": {
+            "color": "#D42A20",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 3,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n363",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            408,
+            816
+          ],
+          "size": [
+            954,
+            35
+          ],
+          "fill": {
+            "color": "#FFFFFF",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "task_3",
+          "text": "User testing & research",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        },
+        {
+          "id": "n364",
+          "kind": "frame",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            388,
+            700
+          ],
+          "size": [
+            343,
+            75
+          ],
+          "fill": {
+            "color": "#FAC22B",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 3,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n365",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            408,
+            720
+          ],
+          "size": [
+            303,
+            35
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "task_4",
+          "text": "Engineering exploration",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 23
+            }
+          ]
+        },
+        {
+          "id": "n366",
+          "kind": "frame",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            751,
+            700
+          ],
+          "size": [
+            343,
+            75
+          ],
+          "fill": {
+            "color": "#FAC22B",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 3,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n367",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            771,
+            720
+          ],
+          "size": [
+            303,
+            35
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "task_5",
+          "text": "Web implementation",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "id": "n368",
+          "kind": "frame",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1115,
+            700
+          ],
+          "size": [
+            342,
+            75
+          ],
+          "fill": {
+            "color": "#FAC22B",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 3,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n369",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1135,
+            720
+          ],
+          "size": [
+            302,
+            35
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "task_6",
+          "text": "Android implementation",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 22
+            }
+          ]
+        },
+        {
+          "id": "n370",
+          "kind": "frame",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1478,
+            700
+          ],
+          "size": [
+            342,
+            75
+          ],
+          "fill": {
+            "color": "#FAC22B",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 3,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n371",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1498,
+            720
+          ],
+          "size": [
+            302,
+            35
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "task_7",
+          "text": "iOS implementation",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "id": "n372",
+          "kind": "frame",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1403,
+            604
+          ],
+          "size": [
+            417,
+            75
+          ],
+          "fill": {
+            "color": "#0E638E",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 3,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n373",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1423,
+            624
+          ],
+          "size": [
+            377,
+            35
+          ],
+          "fill": {
+            "color": "#FFFFFF",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "task_8",
+          "text": "Brand asset design",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "id": "n374",
+          "kind": "line",
+          "transform": [
+            -1,
+            8.742277657347586e-8,
+            -8.742277657347586e-8,
+            -1,
+            1920,
+            558
+          ],
+          "size": [
+            1920,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-metrics",
+      "source_slide": 16,
+      "name": "metrics",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "section",
+        "description",
+        "value_1",
+        "detail_1",
+        "value_2",
+        "detail_2",
+        "value_3",
+        "detail_3"
+      ],
+      "elements": [
+        {
+          "id": "n377",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            720,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "section",
+          "text": "section name",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n379",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            346
+          ],
+          "size": [
+            760,
+            166
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "The extremities of a surface are lines.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 64
+          },
+          "line_height": {
+            "value": 1.2999999523162842,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -2.200000047683716,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 60.15599822998047,
+              "height": 83,
+              "ascent": 58,
+              "start": 0,
+              "end": 29
+            },
+            {
+              "x": 0,
+              "y": 143.156005859375,
+              "height": 83,
+              "ascent": 58,
+              "start": 29,
+              "end": 39
+            }
+          ]
+        },
+        {
+          "id": "n380",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            542
+          ],
+          "size": [
+            760,
+            192
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": "description",
+          "text": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 32
+          },
+          "line_height": {
+            "value": 1.5,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 35.375999450683594,
+              "height": 48,
+              "ascent": 31,
+              "start": 0,
+              "end": 55
+            },
+            {
+              "x": 0,
+              "y": 83.3759994506836,
+              "height": 48,
+              "ascent": 31,
+              "start": 55,
+              "end": 105
+            },
+            {
+              "x": 0,
+              "y": 131.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 105,
+              "end": 154
+            },
+            {
+              "x": 0,
+              "y": 179.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 154,
+              "end": 182
+            }
+          ]
+        },
+        {
+          "id": "n383",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            207
+          ],
+          "size": [
+            760,
+            121
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "value_1",
+          "text": "+330K",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Black",
+            "size": 96
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 94.62799835205078,
+              "height": 121,
+              "ascent": 94,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "id": "n384",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            348
+          ],
+          "size": [
+            760,
+            48
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": "detail_1",
+          "text": "Metric details and caveats",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 32
+          },
+          "line_height": {
+            "value": 1.5,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 35.375999450683594,
+              "height": 48,
+              "ascent": 31,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        },
+        {
+          "id": "n386",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            446
+          ],
+          "size": [
+            760,
+            121
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "value_2",
+          "text": "+103%",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Black",
+            "size": 96
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 94.62799835205078,
+              "height": 121,
+              "ascent": 94,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "id": "n387",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            587
+          ],
+          "size": [
+            760,
+            48
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": "detail_2",
+          "text": "Metric details and caveats",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 32
+          },
+          "line_height": {
+            "value": 1.5,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 35.375999450683594,
+              "height": 48,
+              "ascent": 31,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        },
+        {
+          "id": "n389",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            685
+          ],
+          "size": [
+            760,
+            121
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "value_3",
+          "text": "-18%",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Black",
+            "size": 96
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": -1,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 94.62799835205078,
+              "height": 121,
+              "ascent": 94,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "id": "n390",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            826
+          ],
+          "size": [
+            760,
+            48
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": "detail_3",
+          "text": "Metric details and caveats",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 32
+          },
+          "line_height": {
+            "value": 1.5,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 35.375999450683594,
+              "height": 48,
+              "ascent": 31,
+              "start": 0,
+              "end": 26
+            }
+          ]
+        },
+        {
+          "id": "n391",
+          "kind": "line",
+          "transform": [
+            4.371138828673793e-8,
+            1,
+            -1,
+            4.371138828673793e-8,
+            960,
+            0
+          ],
+          "size": [
+            1080,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-pros-cons",
+      "source_slide": 17,
+      "name": "pros-cons",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "right_label",
+        "right_items",
+        "left_items"
+      ],
+      "elements": [
+        {
+          "id": "n394",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            720,
+            35
+          ],
+          "fill": {
+            "color": "#0E8E51",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "LINEAR_BURN",
+          "slot": "title",
+          "text": "Pros",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "id": "n395",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            80
+          ],
+          "size": [
+            720,
+            35
+          ],
+          "fill": {
+            "color": "#D42A20",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "LINEAR_BURN",
+          "slot": "right_label",
+          "text": "Cons",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "id": "n396",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            360
+          ],
+          "size": [
+            750,
+            332
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "right_items",
+          "text": "First point\nSecond point\nThird point\nFourth point",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 42
+          },
+          "line_height": {
+            "value": 1.25,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 40,
+          "paragraphs": [
+            {
+              "type": "ORDERED_LIST",
+              "indent": 1
+            },
+            {
+              "type": "ORDERED_LIST",
+              "indent": 1
+            },
+            {
+              "type": "ORDERED_LIST",
+              "indent": 1
+            },
+            {
+              "type": "ORDERED_LIST",
+              "indent": 1
+            }
+          ],
+          "baselines": [
+            {
+              "x": 63,
+              "y": 41.430999755859375,
+              "height": 53,
+              "ascent": 41,
+              "start": 0,
+              "end": 12,
+              "marker_x": 17.664201736450195
+            },
+            {
+              "x": 63,
+              "y": 134.43099975585938,
+              "height": 53,
+              "ascent": 41,
+              "start": 12,
+              "end": 25,
+              "marker_x": 17.664201736450195
+            },
+            {
+              "x": 63,
+              "y": 227.43099975585938,
+              "height": 53,
+              "ascent": 41,
+              "start": 25,
+              "end": 37,
+              "marker_x": 17.664201736450195
+            },
+            {
+              "x": 63,
+              "y": 320.4309997558594,
+              "height": 53,
+              "ascent": 41,
+              "start": 37,
+              "end": 49,
+              "marker_x": 17.664201736450195
+            }
+          ]
+        },
+        {
+          "id": "n397",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            360
+          ],
+          "size": [
+            750,
+            332
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "left_items",
+          "text": "First point\nSecond point\nThird point\nFourth point",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 42
+          },
+          "line_height": {
+            "value": 1.25,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 40,
+          "paragraphs": [
+            {
+              "type": "ORDERED_LIST",
+              "indent": 1
+            },
+            {
+              "type": "ORDERED_LIST",
+              "indent": 1
+            },
+            {
+              "type": "ORDERED_LIST",
+              "indent": 1
+            },
+            {
+              "type": "ORDERED_LIST",
+              "indent": 1
+            }
+          ],
+          "baselines": [
+            {
+              "x": 63,
+              "y": 41.430999755859375,
+              "height": 53,
+              "ascent": 41,
+              "start": 0,
+              "end": 12,
+              "marker_x": 17.664201736450195
+            },
+            {
+              "x": 63,
+              "y": 134.43099975585938,
+              "height": 53,
+              "ascent": 41,
+              "start": 12,
+              "end": 25,
+              "marker_x": 17.664201736450195
+            },
+            {
+              "x": 63,
+              "y": 227.43099975585938,
+              "height": 53,
+              "ascent": 41,
+              "start": 25,
+              "end": 37,
+              "marker_x": 17.664201736450195
+            },
+            {
+              "x": 63,
+              "y": 320.4309997558594,
+              "height": 53,
+              "ascent": 41,
+              "start": 37,
+              "end": 49,
+              "marker_x": 17.664201736450195
+            }
+          ]
+        },
+        {
+          "id": "n398",
+          "kind": "line",
+          "transform": [
+            4.371138828673793e-8,
+            1,
+            -1,
+            4.371138828673793e-8,
+            960,
+            0
+          ],
+          "size": [
+            1080,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-checklist",
+      "source_slide": 18,
+      "name": "checklist",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4",
+        "item_5",
+        "section",
+        "description"
+      ],
+      "elements": [
+        {
+          "id": "n404",
+          "kind": "ellipse",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            333
+          ],
+          "size": [
+            42,
+            42
+          ],
+          "fill": {
+            "color": "#0E8E51",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 2,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n405",
+          "kind": "vector",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1072,
+            346.5
+          ],
+          "size": [
+            16.74090576171875,
+            14.926441192626953
+          ],
+          "fill": {
+            "color": "#FFFFFF",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 2.625,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "path": [
+            [
+              "M",
+              7.2169342041015625,
+              14.92644214630127
+            ],
+            [
+              "L",
+              6.224765300750732,
+              15.785660743713379
+            ],
+            [
+              "C",
+              6.496020793914795,
+              16.098888397216797,
+              6.899258136749268,
+              16.2656307220459,
+              7.312514305114746,
+              16.235456466674805
+            ],
+            [
+              "C",
+              7.725769996643066,
+              16.20528221130371,
+              8.100509643554688,
+              15.981734275817871,
+              8.323389053344727,
+              15.632426261901855
+            ],
+            [
+              "L",
+              7.2169342041015625,
+              14.92644214630127
+            ],
+            [
+              "Z"
+            ],
+            [
+              "M",
+              0.99263596534729,
+              5.734126091003418
+            ],
+            [
+              "C",
+              0.5181024670600891,
+              5.186166286468506,
+              -0.31079208850860596,
+              5.12664270401001,
+              -0.8587518334388733,
+              5.6011762619018555
+            ],
+            [
+              "C",
+              -1.4067115783691406,
+              6.075709342956543,
+              -1.4662352800369263,
+              6.904603958129883,
+              -0.9917018413543701,
+              7.452563762664795
+            ],
+            [
+              "L",
+              0.0004670781781896949,
+              6.5933451652526855
+            ],
+            [
+              "L",
+              0.99263596534729,
+              5.734126091003418
+            ],
+            [
+              "Z"
+            ],
+            [
+              "M",
+              17.847360610961914,
+              0.7059848308563232
+            ],
+            [
+              "C",
+              18.23726463317871,
+              0.09490689635276794,
+              18.05797004699707,
+              -0.7165498733520508,
+              17.44689178466797,
+              -1.1064544916152954
+            ],
+            [
+              "C",
+              16.835813522338867,
+              -1.4963592290878296,
+              16.024356842041016,
+              -1.3170628547668457,
+              15.634451866149902,
+              -0.7059848308563232
+            ],
+            [
+              "L",
+              16.74090576171875,
+              0
+            ],
+            [
+              "L",
+              17.847360610961914,
+              0.7059848308563232
+            ],
+            [
+              "Z"
+            ],
+            [
+              "M",
+              7.2169342041015625,
+              14.92644214630127
+            ],
+            [
+              "L",
+              8.20910358428955,
+              14.067222595214844
+            ],
+            [
+              "L",
+              0.99263596534729,
+              5.734126091003418
+            ],
+            [
+              "L",
+              0.0004670781781896949,
+              6.5933451652526855
+            ],
+            [
+              "L",
+              -0.9917018413543701,
+              7.452563762664795
+            ],
+            [
+              "L",
+              6.224765300750732,
+              15.785660743713379
+            ],
+            [
+              "L",
+              7.2169342041015625,
+              14.92644214630127
+            ],
+            [
+              "Z"
+            ],
+            [
+              "M",
+              7.2169342041015625,
+              14.92644214630127
+            ],
+            [
+              "L",
+              8.323389053344727,
+              15.632426261901855
+            ],
+            [
+              "L",
+              17.847360610961914,
+              0.7059848308563232
+            ],
+            [
+              "L",
+              16.74090576171875,
+              0
+            ],
+            [
+              "L",
+              15.634451866149902,
+              -0.7059848308563232
+            ],
+            [
+              "L",
+              6.110479831695557,
+              14.220457077026367
+            ],
+            [
+              "L",
+              7.2169342041015625,
+              14.92644214630127
+            ],
+            [
+              "Z"
+            ]
+          ]
+        },
+        {
+          "id": "n406",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1132,
+            327.5
+          ],
+          "size": [
+            286,
+            53
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "item_1",
+          "text": "Check list item 1",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 42
+          },
+          "line_height": {
+            "value": 1.25,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 40,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 41.430999755859375,
+              "height": 53,
+              "ascent": 41,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "id": "n409",
+          "kind": "ellipse",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            426
+          ],
+          "size": [
+            42,
+            42
+          ],
+          "fill": {
+            "color": "#0E8E51",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 2,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n410",
+          "kind": "vector",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1072,
+            439.5
+          ],
+          "size": [
+            16.74090576171875,
+            14.926441192626953
+          ],
+          "fill": {
+            "color": "#FFFFFF",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 2.625,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "path": [
+            [
+              "M",
+              7.2169342041015625,
+              14.92644214630127
+            ],
+            [
+              "L",
+              6.224765300750732,
+              15.785660743713379
+            ],
+            [
+              "C",
+              6.496020793914795,
+              16.098888397216797,
+              6.899258136749268,
+              16.2656307220459,
+              7.312514305114746,
+              16.235456466674805
+            ],
+            [
+              "C",
+              7.725769996643066,
+              16.20528221130371,
+              8.100509643554688,
+              15.981734275817871,
+              8.323389053344727,
+              15.632426261901855
+            ],
+            [
+              "L",
+              7.2169342041015625,
+              14.92644214630127
+            ],
+            [
+              "Z"
+            ],
+            [
+              "M",
+              0.99263596534729,
+              5.734126091003418
+            ],
+            [
+              "C",
+              0.5181024670600891,
+              5.186166286468506,
+              -0.31079208850860596,
+              5.12664270401001,
+              -0.8587518334388733,
+              5.6011762619018555
+            ],
+            [
+              "C",
+              -1.4067115783691406,
+              6.075709342956543,
+              -1.4662352800369263,
+              6.904603958129883,
+              -0.9917018413543701,
+              7.452563762664795
+            ],
+            [
+              "L",
+              0.0004670781781896949,
+              6.5933451652526855
+            ],
+            [
+              "L",
+              0.99263596534729,
+              5.734126091003418
+            ],
+            [
+              "Z"
+            ],
+            [
+              "M",
+              17.847360610961914,
+              0.7059848308563232
+            ],
+            [
+              "C",
+              18.23726463317871,
+              0.09490689635276794,
+              18.05797004699707,
+              -0.7165498733520508,
+              17.44689178466797,
+              -1.1064544916152954
+            ],
+            [
+              "C",
+              16.835813522338867,
+              -1.4963592290878296,
+              16.024356842041016,
+              -1.3170628547668457,
+              15.634451866149902,
+              -0.7059848308563232
+            ],
+            [
+              "L",
+              16.74090576171875,
+              0
+            ],
+            [
+              "L",
+              17.847360610961914,
+              0.7059848308563232
+            ],
+            [
+              "Z"
+            ],
+            [
+              "M",
+              7.2169342041015625,
+              14.92644214630127
+            ],
+            [
+              "L",
+              8.20910358428955,
+              14.067222595214844
+            ],
+            [
+              "L",
+              0.99263596534729,
+              5.734126091003418
+            ],
+            [
+              "L",
+              0.0004670781781896949,
+              6.5933451652526855
+            ],
+            [
+              "L",
+              -0.9917018413543701,
+              7.452563762664795
+            ],
+            [
+              "L",
+              6.224765300750732,
+              15.785660743713379
+            ],
+            [
+              "L",
+              7.2169342041015625,
+              14.92644214630127
+            ],
+            [
+              "Z"
+            ],
+            [
+              "M",
+              7.2169342041015625,
+              14.92644214630127
+            ],
+            [
+              "L",
+              8.323389053344727,
+              15.632426261901855
+            ],
+            [
+              "L",
+              17.847360610961914,
+              0.7059848308563232
+            ],
+            [
+              "L",
+              16.74090576171875,
+              0
+            ],
+            [
+              "L",
+              15.634451866149902,
+              -0.7059848308563232
+            ],
+            [
+              "L",
+              6.110479831695557,
+              14.220457077026367
+            ],
+            [
+              "L",
+              7.2169342041015625,
+              14.92644214630127
+            ],
+            [
+              "Z"
+            ]
+          ]
+        },
+        {
+          "id": "n411",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1132,
+            420.5
+          ],
+          "size": [
+            286,
+            53
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "item_2",
+          "text": "Check list item 2",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 42
+          },
+          "line_height": {
+            "value": 1.25,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 40,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 41.430999755859375,
+              "height": 53,
+              "ascent": 41,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "id": "n414",
+          "kind": "ellipse",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            519
+          ],
+          "size": [
+            42,
+            42
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke_width": 2,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n415",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1132,
+            513.5
+          ],
+          "size": [
+            286,
+            53
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "item_3",
+          "text": "Check list item 3",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 42
+          },
+          "line_height": {
+            "value": 1.25,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 40,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 41.430999755859375,
+              "height": 53,
+              "ascent": 41,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "id": "n418",
+          "kind": "ellipse",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            612
+          ],
+          "size": [
+            42,
+            42
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke_width": 2,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n419",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1132,
+            606.5
+          ],
+          "size": [
+            286,
+            53
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "item_4",
+          "text": "Check list item 4",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 42
+          },
+          "line_height": {
+            "value": 1.25,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 40,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 41.430999755859375,
+              "height": 53,
+              "ascent": 41,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "id": "n422",
+          "kind": "ellipse",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1060,
+            705
+          ],
+          "size": [
+            42,
+            42
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke_width": 2,
+          "opacity": 1,
+          "blend": "NORMAL"
+        },
+        {
+          "id": "n423",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            1132,
+            699.5
+          ],
+          "size": [
+            286,
+            53
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "item_5",
+          "text": "Check list item 5",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 42
+          },
+          "line_height": {
+            "value": 1.25,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 40,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 41.430999755859375,
+              "height": 53,
+              "ascent": 41,
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "id": "n424",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            720,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "section",
+          "text": "section name",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n426",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            304.5
+          ],
+          "size": [
+            760,
+            249
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "A triangle whose three sides are equal, is said to be equilateral.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 64
+          },
+          "line_height": {
+            "value": 1.2999999523162842,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": -2.200000047683716,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 60.15599822998047,
+              "height": 83,
+              "ascent": 58,
+              "start": 0,
+              "end": 23
+            },
+            {
+              "x": 0,
+              "y": 143.156005859375,
+              "height": 83,
+              "ascent": 58,
+              "start": 23,
+              "end": 54
+            },
+            {
+              "x": 0,
+              "y": 226.156005859375,
+              "height": 83,
+              "ascent": 58,
+              "start": 54,
+              "end": 66
+            }
+          ]
+        },
+        {
+          "id": "n427",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            583.5
+          ],
+          "size": [
+            760,
+            192
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "NORMAL",
+          "slot": "description",
+          "text": "Longer description of slide content. Typically used to provide extra context or nuance to slides. A good description ensures slides can be consumed async without a live presentation.",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "size": 32
+          },
+          "line_height": {
+            "value": 1.5,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 35.375999450683594,
+              "height": 48,
+              "ascent": 31,
+              "start": 0,
+              "end": 55
+            },
+            {
+              "x": 0,
+              "y": 83.3759994506836,
+              "height": 48,
+              "ascent": 31,
+              "start": 55,
+              "end": 105
+            },
+            {
+              "x": 0,
+              "y": 131.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 105,
+              "end": 154
+            },
+            {
+              "x": 0,
+              "y": 179.37600708007812,
+              "height": 48,
+              "ascent": 31,
+              "start": 154,
+              "end": 182
+            }
+          ]
+        },
+        {
+          "id": "n428",
+          "kind": "line",
+          "transform": [
+            4.371138828673793e-8,
+            1,
+            -1,
+            4.371138828673793e-8,
+            960,
+            0
+          ],
+          "size": [
+            1080,
+            0
+          ],
+          "fill": null,
+          "stroke": {
+            "color": "#88888C",
+            "opacity": 1
+          },
+          "stroke_width": 3,
+          "opacity": 0.30000001192092896,
+          "blend": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "euclidean-closing",
+      "source_slide": 19,
+      "name": "closing",
+      "background": "#FCF7E9",
+      "title_slot": "title",
+      "fields": [
+        "caption"
+      ],
+      "elements": [
+        {
+          "id": "n431",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            100,
+            80
+          ],
+          "size": [
+            163,
+            35
+          ],
+          "fill": {
+            "color": "#16161D",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 0.5,
+          "blend": "LINEAR_BURN",
+          "slot": "caption",
+          "text": "26 june 2024",
+          "font": {
+            "family": "Source Sans Pro",
+            "style": "SemiBold",
+            "size": 28
+          },
+          "line_height": {
+            "value": 100,
+            "units": "PERCENT"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "LEFT",
+          "vertical_align": "TOP",
+          "text_case": "UPPER",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 0,
+              "y": 27.45400047302246,
+              "height": 35.19599914550781,
+              "ascent": 27,
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "id": "n432",
+          "kind": "text",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            309,
+            456
+          ],
+          "size": [
+            1303,
+            168
+          ],
+          "fill": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "stroke": null,
+          "stroke_width": 1,
+          "opacity": 1,
+          "blend": "NORMAL",
+          "slot": "title",
+          "text": "Q. E. D.",
+          "font": {
+            "family": "Source Serif Pro",
+            "style": "Regular",
+            "size": 140
+          },
+          "line_height": {
+            "value": 1.2000000476837158,
+            "units": "RAW"
+          },
+          "letter_spacing": {
+            "value": 0,
+            "units": "PERCENT"
+          },
+          "align": "CENTER",
+          "vertical_align": "CENTER",
+          "text_case": "ORIGINAL",
+          "list_spacing": 0,
+          "paragraphs": [
+            {
+              "type": "PLAIN",
+              "indent": 0
+            }
+          ],
+          "baselines": [
+            {
+              "x": 420.103515625,
+              "y": 124.80999755859375,
+              "height": 175.4199981689453,
+              "ascent": 128,
+              "start": 0,
+              "end": 8
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
