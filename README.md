@@ -40,6 +40,37 @@ Python-зависимости и авторизацию внешних серв�
 | Навык | Назначение |
 |---|---|
 | [slides-generator](skills/slides-generator/SKILL.md) | Исследование, согласование оглавления, редактируемый PowerPoint и речь выступающего |
+| [otel-instrumentation](skills/otel-instrumentation/SKILL.md) | OpenTelemetry для frontend/mobile/backend, БД и брокеров; корреляция логов, traces и метрик |
+| [presentations](skills/presentations/SKILL.md) | Автономные HTML-презентации и аккуратный перенос анкет в адаптивный формат |
+
+## Presentations (HTML)
+
+Навык находится в [`skills/presentations/`](skills/presentations/SKILL.md) и содержит
+подробные правила структуры, навигации, оформления, переноса анкет и проверки
+автономных HTML-презентаций.
+
+```bash
+npx skills add https://github.com/crowar/agent-toolkit --skill presentations
+```
+
+## OpenTelemetry Instrumentation
+
+Навык находится в [skills/otel-instrumentation/SKILL.md](skills/otel-instrumentation/SKILL.md).
+Он задаёт workflow подключения и проверки traces, структурированных логов и метрик
+для frontend, мобильных приложений, backend и фоновых обработчиков. Включает
+Microsoft SQL Server, PostgreSQL, Redis, другие БД, Kafka, RabbitMQ, внешние HTTP/RPC
+и прочие вызываемые системы. Отдельно описаны связь логов с активным span,
+метрики приложения и exemplars, защита данных и проверка доставки в хранилище.
+
+```bash
+npx skills add https://github.com/crowar/agent-toolkit --skill otel-instrumentation
+```
+
+Команда из GitHub станет доступна после коммита и push нового навыка. Для локальной
+проверки используйте `npx skills add . --list` из корня `agent-toolkit`; для установки
+из локальной копии: `npx skills add . --skill otel-instrumentation`.
+Навык содержит инструкции и справочники, не устанавливает SDK/Collector автоматически
+и не требует аккаунта конкретного поставщика мониторинга.
 
 ## Slides Generator
 
