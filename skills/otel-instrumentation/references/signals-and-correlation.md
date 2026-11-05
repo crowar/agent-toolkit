@@ -1,5 +1,43 @@
 # Traces, Logs, Metrics, And Correlation
 
+## Standard Runtime Configuration
+
+For server-side OTel SDK auto-configuration, deployment configuration MUST provide
+the following standard variables independently of the application artifact. The
+values are deployment-specific and MUST NOT be copied from an example or hardcoded.
+
+| Environment variable | Purpose | How the application uses it | Necessity and validation |
+| --- | --- | --- | --- |
+| `OTEL_EXPORTER_OTLP_ENDPOINT` | Identifies the Collector or approved OTLP gateway base endpoint. | The SDK exporter resolves the destination from the process environment at startup. | Required when exporting OTLP. Obtain it from the deployment's service discovery/configuration. Validate scheme, host, port and reachability without logging credentials. |
+| `OTEL_EXPORTER_OTLP_PROTOCOL` | Selects the OTLP transport and encoding understood by both SDK exporter and receiver. | SDK auto-configuration creates the matching exporter; custom wiring must use the SDK's standard environment parser. | Required when the SDK cannot infer a supported default. Check the exact accepted values for that SDK version and match them to the configured Collector receiver. |
+| `OTEL_RESOURCE_ATTRIBUTES` | Supplies approved resource metadata shared by emitted signals, such as deployment environment and release version. | Parse with the SDK's OTel environment parser; the value follows the OTel comma-separated key/value grammar, not arbitrary application JSON. | Optional attributes may be omitted when unavailable; required organization attributes must be deployment-validated. Test escaping and malformed input. Do not put secrets, PII or `service.name` here. |
+| `OTEL_SERVICE_NAME` | Identifies the independently deployable service in traces, logs and metrics. | The OTel SDK maps it to the resource's `service.name`. Under the OTel environment specification it takes precedence over a conflicting `service.name` in `OTEL_RESOURCE_ATTRIBUTES`. | Required for a useful service identity. Inject a stable, distinct value for each API, frontend server, and worker; fail deployment validation if absent rather than choosing an unrelated fallback. |
+
+Keep endpoint and protocol aligned: select the transport supported by both the SDK
+and Collector receiver. Inspect the selected SDK's endpoint rules: a generic base
+endpoint may append signal paths, while per-signal endpoints may require full paths.
+Never assume endpoint semantics are identical across SDKs or point one transport at
+another transport's receiver.
+
+Inject values at runtime through Compose, Kubernetes, a service manager, or an
+approved config store. A deployment-template required-value expression is a guard
+against missing configuration; it is not itself an application environment value.
+Custom SDK wiring MUST consume the standard variables through its official
+environment parser/extension. If the SDK cannot support one, document a single
+adapter, precedence and validation behavior. Do not silently ignore the standard
+contract or let app-specific settings override it unexpectedly.
+
+Define missing/empty-value behavior explicitly: fail deployment validation or use a
+documented local no-op. Do not silently export to an unrelated vendor or endpoint.
+Validate effective service identity, endpoint and protocol safely without logging
+credentials or complete connection strings.
+
+Browser JavaScript cannot read server process variables. Map only reviewed,
+non-secret service/version/environment metadata into client runtime configuration;
+do not expose a server Collector endpoint or authentication material. Route browser
+traces/logs through the approved same-origin OTLP/HTTP gateway with explicit CORS,
+CSP, quotas and rate limits.
+
 ## Do Not Confuse The Signals
 
 - A span describes a bounded operation; a trace is the related span graph.

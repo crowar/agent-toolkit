@@ -59,7 +59,9 @@ npx skills add https://github.com/crowar/agent-toolkit --skill presentations
 Он задаёт workflow подключения и проверки traces, структурированных логов и метрик
 для frontend, мобильных приложений, backend и фоновых обработчиков. Включает
 Microsoft SQL Server, PostgreSQL, Redis, другие БД, Kafka, RabbitMQ, внешние HTTP/RPC
-и прочие вызываемые системы. Отдельно описаны связь логов с активным span,
+и прочие вызываемые системы. Backend должен получать endpoint/protocol/resource
+через стандартные `OTEL_EXPORTER_OTLP_*`, `OTEL_RESOURCE_ATTRIBUTES` и
+`OTEL_SERVICE_NAME`, а не из хардкода. Отдельно описаны связь логов с активным span,
 метрики приложения и exemplars, защита данных и проверка доставки в хранилище.
 
 ```bash

@@ -76,6 +76,16 @@ database or broker merely to satisfy this skill.
 5. Set parent-based trace sampling where appropriate, metric export/scrape
    intervals, queue/attribute/event limits, exporter timeouts, and bounded flush.
    Document error-log retention separately from trace sampling.
+6. For each server-side app and worker using standard OTel SDK auto-configuration,
+  make the runtime environment the source of exporter and resource settings.
+  Support `OTEL_EXPORTER_OTLP_ENDPOINT`, `OTEL_EXPORTER_OTLP_PROTOCOL`,
+  `OTEL_RESOURCE_ATTRIBUTES`, and `OTEL_SERVICE_NAME` without hardcoding
+  environment-specific values in application code. Their purpose, requiredness,
+  precedence and validation are defined in [standard runtime configuration](./references/signals-and-correlation.md#standard-runtime-configuration).
+7. Prefer the selected language's supported OTel environment auto-configuration. If
+  custom SDK wiring is necessary, resolve those standard variables with its official
+  environment parser/extension; do not silently ignore them or introduce conflicting
+  app-only telemetry settings. Document any SDK limitation, adapter and precedence.
 
 ## 3. Bootstrap And Export Safely
 
@@ -149,6 +159,12 @@ database or broker merely to satisfy this skill.
 - With Embrace/RUM vendors, explicitly choose standalone/custom OTLP or cloud mode;
   configure signal support, resources, exporters and mapping uploads accordingly.
   Do not claim a generic trace UI supplies the vendor's crash/session analytics.
+- Browser code must never receive server secrets, private Collector endpoints, or
+  blindly inherit the server's `OTEL_EXPORTER_OTLP_ENDPOINT` and gRPC protocol.
+  Route browser telemetry through an approved same-origin HTTPS OTLP/HTTP gateway
+  with reviewed CORS/CSP, quotas and no privileged credentials in JavaScript. Keep
+  browser-safe service/version/environment config separate; frontend build variables
+  are public, not secrets.
 
 ## 6. Verify Incrementally And End To End
 
@@ -172,6 +188,10 @@ Verify the following for systems present in scope:
   events, links and metric labels. Verify getters/metadata survive custom projections.
 - Collector outage causes bounded loss/retry, not unbounded queues, UI hangs,
   duplicate writes, recursive exports, or application failures.
+- Run the same artifact with local/test and staging `OTEL_*` values without rebuild.
+  Verify effective endpoint, protocol, service name and parsed resources on traces,
+  logs and metrics; test missing/empty settings and service-name precedence. No
+  silent fallback may route data to an unrelated vendor/cloud or localhost.
 - Record clock offsets, parent IDs and raw timestamps when a timeline looks wrong.
   Compare host/container/emulator clocks with transport uncertainty; never fabricate
   timestamps or shift spans to visually hide skew. Batch export delay is not span time.
