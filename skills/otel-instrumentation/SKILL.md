@@ -14,6 +14,8 @@ RUM/Embrace integration, and migrations from another telemetry SDK.
 - Always read [signal and correlation rules](./references/signals-and-correlation.md).
 - Read [dependency instrumentation](./references/dependencies.md) for every backend,
   worker, database, cache, message broker, or outbound integration in scope.
+- Always read [pitfalls and local verification](./references/pitfalls-and-local-verification.md)
+  before implementing and before claiming export works.
 - Use current official documentation for the selected language, SDK distribution,
   instrumentation packages, and semantic-convention version. Do not treat these
   instructions as a package-version compatibility matrix.
@@ -57,6 +59,11 @@ Enumerate actual libraries, not only infrastructure names: an ORM and raw SQL pa
 two Redis clients, or a worker in another process can need separate coverage.
 Mark absent systems N/A and unsupported instrumentation as a gap; do not add a
 database or broker merely to satisfy this skill.
+
+Also record which existing package already owns each signal (base logging libraries
+often hardcode tracing, protocol, sampler and stdout logging) and extend it instead
+of duplicating it. Ensure logs, metrics and traces all reach the backend and that
+log level filters apply to every sink; see the pitfalls reference.
 
 ## 2. Establish The Telemetry Contract
 
@@ -196,7 +203,15 @@ Verify the following for systems present in scope:
   Compare host/container/emulator clocks with transport uncertainty; never fabricate
   timestamps or shift spans to visually hide skew. Batch export delay is not span time.
 
+Environment checks that commonly explain "no data": launch-profile `OTEL_*`
+overrides, HTTP proxy settings (CIDR `NO_PROXY` is ignored by .NET), mismatched
+gRPC/HTTP protocol or port, missing auth header, and a shell command that never
+started the app. Verify with the recipe in the pitfalls reference.
+
 ## Deliverables And Definition Of Done
+
+Include a copy-paste launch command (all `OTEL_*`, `NO_PROXY`, no-launch-profile,
+token placeholder) and state which sinks honour the configured log levels.
 
 Deliver the smallest implementation/configuration/tests/docs consistent with the
 existing project, plus the completed coverage table. Report versions, provider
