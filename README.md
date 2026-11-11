@@ -42,6 +42,7 @@ Python-зависимости и авторизацию внешних серв�
 | [slides-generator](skills/slides-generator/SKILL.md) | Исследование, согласование оглавления, редактируемый PowerPoint и речь выступающего |
 | [otel-instrumentation](skills/otel-instrumentation/SKILL.md) | OpenTelemetry для frontend/mobile/backend, БД и брокеров; корреляция логов, traces и метрик |
 | [presentations](skills/presentations/SKILL.md) | Автономные HTML-презентации и аккуратный перенос анкет в адаптивный формат |
+| [fix-ci-failures](skills/fix-ci-failures/SKILL.md) | Диагностика и исправление падений GitLab CI: unit-тесты, SonarQube Quality Gate (настройки `CIFIX_*` в `.env`) |
 
 ## Presentations (HTML)
 
