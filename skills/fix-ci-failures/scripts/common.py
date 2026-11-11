@@ -13,7 +13,7 @@ KEYS = [PREFIX + k for k in ("GITLAB_URL", "GITLAB_TOKEN", "SONAR_URL", "SONAR_T
 HEADER = "# --- fix-ci-failures (не коммитить .env!) ---"
 HINTS = {
     PREFIX + "GITLAB_URL": "# GitLab, например https://gitlab.example.com",
-    PREFIX + "GITLAB_TOKEN": "# токен GitLab, scope read_api",
+    PREFIX + "GITLAB_TOKEN": "# токен GitLab, scope api (чтение MR + ответы/resolve review threads)",
     PREFIX + "SONAR_URL": "# SonarQube, например https://sq.example.com",
     PREFIX + "SONAR_TOKEN": "# токен SonarQube (user/project analysis token)",
 }
@@ -30,21 +30,26 @@ def repo_root():
 
 def ensure_gitignored(root):
     path = os.path.join(root, ".gitignore")
-    lines = open(path).read().splitlines() if os.path.exists(path) else []
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            lines = f.read().splitlines()
+    else:
+        lines = []
     if ".env" not in [l.strip() for l in lines]:
-        with open(path, "a") as f:
+        with open(path, "a", encoding="utf-8") as f:
             f.write(("\n" if lines and lines[-1] else "") + ".env\n")
 
 
 def parse_env(path):
     env = {}
-    for line in open(path):
-        line = line.strip()
-        if line.startswith("export "):
-            line = line[7:]
-        if line and not line.startswith("#") and "=" in line:
-            k, v = line.split("=", 1)
-            env[k.strip()] = v.strip().strip("'\"")
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line.startswith("export "):
+                line = line[7:]
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                env[k.strip()] = v.strip().strip("'\"")
     return env
 
 
@@ -60,7 +65,7 @@ def load_env(required=()):
     missing = [k for k in required if not env[k]]
     absent = [k for k in KEYS if k not in file_env]
     if absent and (missing or existed):
-        with open(path, "a+") as f:
+        with open(path, "a+", encoding="utf-8") as f:
             f.seek(0)
             content = f.read()
             if content and not content.endswith("\n"):
@@ -96,17 +101,39 @@ def run(main):
         sys.exit(str(e))
 
 
-def http_get(url, headers, raw=False):
-    req = urllib.request.Request(url, headers=headers)
+def http_request(url, headers, method="GET", body=None, raw=False):
+    data = json.dumps(body).encode() if body is not None else None
+    request_headers = dict(headers)
+    if data is not None:
+        request_headers["Content-Type"] = "application/json"
+    req = urllib.request.Request(url, data=data, headers=request_headers, method=method)
     safe = url.split("?")[0]
     try:
         with urllib.request.urlopen(req, timeout=60) as r:
             data = r.read()
     except urllib.error.HTTPError as e:
-        raise ApiError(e.code, safe, e.reason) from None
+        err_body = e.read().decode("utf-8", "replace").strip()
+        reason = f"{e.reason}: {err_body}" if err_body else e.reason
+        raise ApiError(e.code, safe, reason) from None
     except urllib.error.URLError as e:
         raise ApiError(0, safe, e.reason) from None
+    if not data:
+        return None
     return data.decode("utf-8", "replace") if raw else json.loads(data)
+
+
+def http_get(url, headers, raw=False):
+    return http_request(url, headers, raw=raw)
+
+
+def gitlab_request(env, path, method="GET", params=None, body=None):
+    q = "?" + urllib.parse.urlencode(params) if params else ""
+    return http_request(
+        f"{env['GITLAB_URL']}/api/v4{path}{q}",
+        {"PRIVATE-TOKEN": env["GITLAB_TOKEN"]},
+        method=method,
+        body=body,
+    )
 
 
 def gitlab_get(env, path, params=None, raw=False):
