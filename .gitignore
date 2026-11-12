@@ -9,3 +9,7 @@ __pycache__/
 output/
 preview/
 **/tests/.run-*/
+/.agents/
+/.claude/
+/.codemie/
+/skills-lock.json
