@@ -21,7 +21,7 @@ npx --version
 Установка выбранного навыка из GitHub:
 
 ```bash
-npx skills add https://github.com/crowar/agent-toolkit --skill slides-generator
+npx skills add https://github.com/crowar/agent-toolkit --skill presentations
 ```
 
 CLI предложит выбрать агентов и способ установки. По умолчанию установка
@@ -30,7 +30,7 @@ CLI предложит выбрать агентов и способ устан�
 
 ```bash
 npx skills add https://github.com/crowar/agent-toolkit \
-  --skill slides-generator --agent github-copilot codex claude-code
+  --skill presentations --agent github-copilot codex claude-code
 ```
 
 Список доступных навыков без установки:
@@ -39,8 +39,8 @@ npx skills add https://github.com/crowar/agent-toolkit \
 npx skills add https://github.com/crowar/agent-toolkit --list
 ```
 
-Для будущих навыков замените `slides-generator` на значение `name` из их
-`SKILL.md`. Отдельный npm-пакет и публикация в npm не требуются.
+Для установки другого навыка укажите его значение `name` из `SKILL.md`.
+Отдельный npm-пакет и публикация в npm не требуются.
 Установка навыка копирует инструкции и ресурсы, но не устанавливает Python,
 Python-зависимости и авторизацию внешних сервисов.
 
@@ -68,7 +68,3 @@ Python-зависимости и авторизацию внешних серв�
 - [presentations](skills/presentations/SKILL.md) — автономные HTML-презентации
   и перенос анкет в адаптивный формат.
   `npx skills add https://github.com/crowar/agent-toolkit --skill presentations`
-- [slides-generator](skills/slides-generator/SKILL.md) — подготовка
-  исследовательских презентаций PowerPoint с согласованием оглавления,
-  редактируемыми слайдами и речью выступающего.
-  `npx skills add https://github.com/crowar/agent-toolkit --skill slides-generator`
