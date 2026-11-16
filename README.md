@@ -54,7 +54,8 @@ Python-зависимости и авторизацию внешних серв�
 #### CI и качество кода
 
 - [fix-ci-failures](skills/fix-ci-failures/SKILL.md) — диагностика GitLab CI,
-  unit-тестов, замечаний SonarQube и обсуждений code review.
+  unit-тестов, замечаний SonarQube, обсуждений code review и карантина
+  зависимостей Nexus / Sonatype IQ с подбором разрешённой совместимой версии.
   `npx skills add https://github.com/crowar/agent-toolkit --skill fix-ci-failures`
 
 #### Наблюдаемость
