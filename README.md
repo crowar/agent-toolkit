@@ -64,6 +64,12 @@ Python-зависимости и авторизацию внешних серв�
   для frontend, mobile, backend, баз данных и брокеров; traces, логи и метрики.
   `npx skills add https://github.com/crowar/agent-toolkit --skill otel-instrumentation`
 
+#### Миграция платформ
+
+- [dotnet10-migration](skills/dotnet10-migration/SKILL.md) — миграция приложений
+  .NET 5/8 на .NET 10 и выбор целевых TFM для библиотек .NET Standard.
+  `npx skills add https://github.com/crowar/agent-toolkit --skill dotnet10-migration`
+
 ### Подготовка контента и презентаций
 
 - [presentations](skills/presentations/SKILL.md) — автономные HTML-презентации
